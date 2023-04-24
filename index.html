@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>农科软件工作室</title>
     <!-- <link rel="stylesheet" href="stylesheet/content_style.css"> -->
     <style>
         .content {
@@ -14,22 +14,34 @@
         .nav {
             height: 50px;
             background-color: #666;
-            color: red;
+            color: #eee;
             text-align: center;
             margin: 0 auto;
+            font-size: medium;
         }
         li {
             list-style: none;
             float: right;
+            padding: 5px 10px;
+            background-color: #666;
+            border: #666 solid 5px;
+        }
+        li:hover {
+            border-bottom: #eee;
+        }
+        a {
+            text-decoration-style: none;
         }
     </style>
 </head>
 <body>
-    <div class="nav">
-        <li id="aboutus" onclick="gotoAboutUs()">关于我们</li>
-        <li id="blog">博客</li>
-        <li id="joinus">加入我们</li>
-        <li></li>
+    <div class="navBar">
+        <div class="nav">
+            <li id="aboutus" onclick="gotoAboutUs()"><a href="#">关于我们</a></li>
+            <li id="blog"><a href="#">博客</a></li>
+            <li id="joinus"><a href="#">加入我们</a></li>
+            <li><a href="#"></a></li>
+        </div>
     </div>
     <div class="content">
         <div class="aboutus">
