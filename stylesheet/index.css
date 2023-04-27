@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: none;
+    padding: 10px;
+}
+
+.navBar {
+    height: 42px;
+    color: #d8d8d8;
+    background-color: #363636;
+}
+
+.nav {
+    text-align: center;
+    font-size: medium;
+
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+    background-color: #363636;
+    border: #363636 solid 5px;
+}
+
+.nav li:hover {
+    border-bottom: #d8d8d8 solid 5px;
+}
+
+.HideFunctionBlock li {
+    list-style: none;
+    float: right;
+    padding: 5px 10px;
+    background-color: #363636;
+    border: #363636 solid 5px;
+}
+
+.nav a {
+    color: #eee;
+    text-decoration: none;
+}
+.HideFunctionBlock a {
+    background: url(/images/HideAll.svg);
+}

@@ -1,101 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>农科软件工作室</title>
-    <!-- <link rel="stylesheet" href="stylesheet/content_style.css"> -->
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        .content {
-            display: none;
-            padding: 10px;
-        }
-        .navBar {
-            height: 42px;
-        }
-        .nav {
-            background-color: #666;
-            text-align: center;
-            margin: 0 auto;
-            font-size: medium;
-        }
-        li {
-            list-style: none;
-            float: left;
-            padding: 5px 10px;
-            background-color: #666;
-            border: #666 solid 5px;
-        }
-        li:hover {
-            border-bottom: #eee;
-        }
-        a {
-            color: #eee;
-            text-decoration: none;
-        }
-    </style>
+    <script src="/script/jquery-3.6.4.js"></script>
+    <title>加福斯科技软件工作室</title>
+    <link rel="stylesheet" href="stylesheet/index.css">
+
 </head>
+
 <body>
     <div class="navBar">
-        <div class="nav">
-            <li id="aboutus" onclick="gotoAboutUs()"><a href="#">关于我们</a></li>
-            <li id="blog"><a href="#">博客</a></li>
+        <ul class="nav">
+            <li id="HeadPage" onclick="gotoHeadPage()"><a href="#">首页</a></li>
+            <li id="Blog"><a href="#">博客</a></li>
             <li id="joinus"><a href="#">加入我们</a></li>
-            <li><a href="#"></a></li>
-        </div>
+            <li id="nksoftstudio"><a href="#">农科软件工作室</a></li>
+        </ul>
+        <ul class="HideFunctionBlock">
+            <li id="HideAllBlock"><a href="#"></a></li>
+            <li id="HideOutline"><img src="" alt="大纲"></li>
+            <li id="HideBlogIndex"><img src="" alt="博客索引"></li>
+        </ul>
     </div>
     <div class="content">
         <div class="aboutus">
-			<iframe src="aboutus.html" frameborder="0"></iframe>
+
         </div>
         <div class="blog">
-            <iframe src="blog.html" frameborder="0"></iframe>    
+            <iframe src="blog.html" frameborder="0"></iframe>
         </div>
         <div class="joinus">
             <iframe src="joinus.html" frameborder="0"></iframe>
         </div>
-    </div>
-
-    <div class="leftSide">
-        
-    </div>
-
-    <div class="rightSide">
-        <div class="outLine">
-
+        <div class="nksoftstudio">
+            <iframe src="nksoftstudio" frameborder="0"></iframe>
         </div>
     </div>
 
-    <script>
-        var aboutus = document.querySelector('.aboutus');
-        var blog = document.querySelector('.blog');
-        var joinus = document.querySelector('.joinus');
-        function gotoAboutUs() {
-            if (aboutus.style.display === "none") {
-                aboutus.style.display = "block";
-                blog.style.display = "none";
-                joinus.style.display = "none";
-            }
-        }
-        function gotoBlog() {
-            if (blog.style.display === "none") {
-                aboutus.style.display = "none";
-                blog.style.display = "block";
-                joinus.style.display = "none";
-            }
-        }
-        function gotoJoinUs() {
-            if (joinus.style.display === "none") {
-                aboutus.style.display = "none";
-                blog.style.display = "none";
-                joinus.style.display = "block";
-            }
-        }
-    </script>
+
+    <script src="/script/test.js"></script>
+
 </body>
+
 </html>
