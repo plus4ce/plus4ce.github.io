@@ -5,22 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script/jquery-3.6.4.js"></script>
+    <script src="./js/jquery-3.6.4.js"></script>
     <title>加拂拭软件工作室</title>
-    <link rel="stylesheet" href="./stylesheet/index.css">
+    <link rel="stylesheet" href="./css/window_style.css">
 
 </head>
 
 <body>
+
+<div class="Page">
     <div class="HeadBar">
         <ul class="Nav">
-            <li id="Icon">
-                <img src="./images/Plus4ce_icon.svg" alt="加亖">
-            </li>   
-            <li id="HeadPage" onclick="gotoHeadPage()"><a href="#">首页</a></li>
+            <li id="Logo">
+                <a href="#"><img src="./images/Plus4ce_icon.svg" alt="加亖"></a>
+            </li>
+            <li id="HomePage" onclick="gotoHeadPage()"><a href="#">首页</a></li>
             <li id="Blog"><a href="#">博客</a></li>
-            <li id="joinus"><a href="#">加入我们</a></li>
-            <li id="nksoftstudio"><a href="#">农科软件工作室</a></li>
+            <li id="JoinUs"><a href="#">加入我们</a></li>
+            <li id="NKSoftwareStudio"><a href="#">农科软件工作室</a></li>
         </ul>
         <ul class="HideFunctionButtons">
             <li class="HideAll"><img src="" alt="隐藏/显示所有侧边栏"></li>
@@ -28,18 +30,11 @@
             <li class="HideRightSideBar"><img src="" alt="隐藏/显示右侧边栏"></li>
         </ul>
     </div>
-    
-    <div class="Body">
-        <div class="blog">
-            <iframe src="blog.html" frameborder="0"></iframe>
-        </div>
-    </div>
 
-    <div class="FootBar">
-        
-    </div>
+    <iframe src="index.html" class="Body"></iframe>
+</div>
 
-    <script src="/script/test.js"></script>
+<script src="./js/window_js.js"></script>
 
 </body>
 

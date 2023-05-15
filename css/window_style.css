@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
-.Body {
-    display: none;
-    padding: 10px;
+html, body {
+    height: 100%;
+    background-color: #1a1a1a;
 }
 
 .HeadBar {
@@ -20,16 +19,29 @@
 
 }
 
+.Nav a {
+    color: #eee;
+    text-decoration: none;
+}
+
 .Nav li {
     list-style: none;
     float: left;
-    padding: 5px 10px;
+    padding: 10px 10px 5px;
     background-color: #363636;
-    border: #363636 solid 5px;
+    border-bottom: #363636 solid 5px;
 }
 
 .Nav li:hover {
     border-bottom: #d8d8d8 solid 5px;
+}
+#Logo {
+    padding: 5px 5px 0 5px;
+    background-color: #363636;
+    border:none;
+}
+#Logo img {
+    width: 32px;
 }
 
 .HideFunctionButtons li {
@@ -40,12 +52,15 @@
     border: #363636 solid 5px;
 }
 
-.Nav a {
-    color: #eee;
-    text-decoration: none;
+.Page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
-#Icon a {
-    width: 40px;
-    height: 40px;
+.Body {
+    display: block;
+    border: none;
+    width: 100%;
+    flex: 1;
 }
