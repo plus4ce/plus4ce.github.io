@@ -1,0 +1,11 @@
+* {
+    color: #d8d8d8;
+}
+
+.Introduction {
+    margin: 0 26px 20px;
+}
+#info p {
+    margin: 24px 0;
+    text-indent: 2em
+}

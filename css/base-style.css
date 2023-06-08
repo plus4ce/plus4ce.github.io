@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background-color: #1a1a1a;
+}
+
+/*自定义网页结构样式*/
+.Body {
+    max-width: 900px;
+    height: calc(100%);
+    margin: 0 auto;
+}
+.Foot {
+    width: 100%;
+    height: 200px;
+    background-color: #363636;
+}
+
+/*自定义字体样式*/
+.center {
+    text-align: center;
+}
+.text {
+    font-size: 24px;
+}
+.text-smail {
+    font-size: 18px;
+}
+.h1 {
+    font-size: 72px;
+    margin: 33px 0;
+}
+.h3 {
+    font-size: 36px;
+    margin: 15px 30px;
+}
+
+/*列表块样式代码*/
+.BlockList {
+    width: 900px;
+    height: 400px;
+}
+.Blocks {
+    width: 873px;
+    height: 285px;
+    margin: 0 auto;
+}
+.Block {
+    width: 265px;
+    height: 259px;
+    background-color: #363636;
+    border-radius: 10%;
+    margin: 13px;
+    float: left;
+}

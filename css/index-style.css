@@ -1,0 +1,71 @@
+@font-face {
+    font-family: SourceHanSansSC-Medioum;
+    src: url("../fonts/SourceHanSansSC-Medium.otf");
+}
+* {
+    color: #d8d8d8;
+}
+
+.Introduction {
+    height: 1287px;
+    width: 100%;
+}
+#location\&info {
+    width: 900px;
+    height: 550px;
+}
+
+.Location {
+
+    float: left;
+    height: 550px;
+    width: 420px;
+    margin: 0 15px;
+}
+
+#map {
+    display: block;
+    width: 420px;
+    height: 478px;
+
+}
+#location {
+    float: right;
+    width: 396px;
+}
+#info {
+    float: left;
+    width: 420px;
+    height: 550px;
+    margin: 0 15px;
+}
+
+.Equipment {
+    width: 900px;
+    height: 219px;
+}
+
+#equipment-icon {
+    width: 894px;
+    height: 174px;
+    /*margin: 0 auto;*/
+}
+#equipment-text {
+    /* 设施齐全 */
+    width: 630px;
+    height: 145px;
+    opacity: 1;
+    margin: -100px auto;
+
+    font-family: SourceHanSansSC-Medioum;
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0em;
+
+    background: linear-gradient(180deg, rgba(216,216,216,0.00) 13%, rgba(216,216,216,0.88) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
