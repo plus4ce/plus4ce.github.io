@@ -1,71 +1,74 @@
-@font-face {
-    font-family: SourceHanSansSC-Medioum;
-    src: url("../fonts/SourceHanSansSC-Medium.otf");
+html, body {
+    height: 100%;
 }
-* {
+
+.HeadBar {
+    height: 60px;
     color: #d8d8d8;
+    background-color: #363636;
 }
 
-.Introduction {
-    height: 1287px;
-    width: 100%;
-}
-#location\&info {
-    width: 900px;
-    height: 550px;
-}
-
-.Location {
-
-    float: left;
-    height: 550px;
-    width: 420px;
-    margin: 0 15px;
-}
-
-#map {
-    display: block;
-    width: 420px;
-    height: 478px;
-
-}
-#location {
-    float: right;
-    width: 396px;
-}
-#info {
-    float: left;
-    width: 420px;
-    height: 550px;
-    margin: 0 15px;
-}
-
-.Equipment {
-    width: 900px;
-    height: 219px;
-}
-
-#equipment-icon {
-    width: 894px;
-    height: 174px;
-    /*margin: 0 auto;*/
-}
-#equipment-text {
-    /* 设施齐全 */
-    width: 630px;
-    height: 145px;
-    opacity: 1;
-    margin: -100px auto;
-
-    font-family: SourceHanSansSC-Medioum;
-    font-size: 100px;
-    font-weight: 500;
+.Nav {
     text-align: center;
-    letter-spacing: 0em;
+    font-size: 30px;
+}
 
-    background: linear-gradient(180deg, rgba(216,216,216,0.00) 13%, rgba(216,216,216,0.88) 75%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+.Nav a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.Nav li {
+    list-style: none;
+    float: left;
+    padding: 10px 10px 0;
+    background-color: #363636;
+    border-bottom: #363636 solid 5px;
+}
+
+.Nav li:hover {
+    border-bottom: #d8d8d8 solid 5px;
+}
+#Logo {
+    width: 45px;
+    height: 45px;
+    padding: 10px 5px 5px 15px;
+    margin: 0;
+    background-color: #363636;
+    border:none;
+}
+#Logo img {
+    width: 45px;
+}
+
+.HideFunctionButtons li {
+    list-style: none;
+    float: right;
+    padding: 5px 10px;
+    background-color: #363636;
+    /*border: #363636 solid 5px;*/
+    border: none;
+}
+.HideFunctionButtons img {
+    width: 50px;
+    height: 45px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#content {
+    display: block;
+    border: none;
+    width: 100%;
+    flex: 1;
+}
+
+.HideIcon {
+    width: 20px;
+    height: 20px;
+
 }

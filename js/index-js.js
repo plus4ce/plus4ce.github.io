@@ -2,7 +2,7 @@ $(function () {
 
 });
 function gotoIndex() {
-    $("#content").attr("src", "index.html")
+    $("#content").attr("src", "IndexPage.html")
 
 }
 function gotoBlog() {
